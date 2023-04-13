@@ -1,28 +1,71 @@
 /* heading */
 .heading {
-    background-color: rgb(19, 73, 167); 
+    background-color: #033169; 
     color: #fff;
 }
 
 .name {
-    /* text-align: center;
-    margin-top: 25px;
-    margin-left: 20px; */
+   /* padding-top: 20px; */
 }
 
 .contact {
-    /* margin-left: 300px; */
+    padding-left: 280px;
+}
+
+.continfo {
+    margin: 0 0 0 0;
 }
 
 /* main body */
-.container {
-    
+.mainbody {
+    color: #033169;
 }
-
+/* left */
 .left {
-
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: rgb(245, 244, 236);
 }
 
-.right {
-    
+.competences, .hobbies {
+    padding-top: 55px;
+}
+
+.education, .experience {
+    padding-top: 35px; 
+}
+
+.coursetext {
+    max-width: 80%;
+}
+
+/* right */
+.summary {
+    width: 90%;
+    padding-top: 20px;
+}
+
+.summarytext {
+    max-width: 80%;
+}
+
+.university {
+    max-width: 80%;
+}
+
+
+/* general */
+hr {
+    border: 1px solid;
+    color: #033169;
+    width: 90%;
+    margin:0 0 8px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin: 0 0 3px 0;
 }
